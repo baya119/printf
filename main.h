@@ -1,6 +1,9 @@
 #ifndef main_h
 #define main_h
 
+#define MINUS 1
+#define ZERO 4
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
