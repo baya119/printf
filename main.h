@@ -51,4 +51,5 @@ int print_address(va_list l, flags_t *f);
 int print_percent(va_list l, flags_t *f);
 int get_width(const char *format, int *i, va_list list);
 int is_digit(char);
+int get_precision(const char *format, int *i, va_list list);
 #endif
