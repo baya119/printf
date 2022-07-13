@@ -4,6 +4,9 @@
 #define MINUS 1
 #define ZERO 4
 
+#define LONG 2
+#define SHORT 1
+
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -57,4 +60,5 @@ int get_width(const char *format, int *i, va_list list);
 int is_digit(int c);
 int get_precision(const char *format, int *i, va_list list);
 int get_flags(const char *format, int *i);
+int get_length(const char *format, int *i);
 #endif
